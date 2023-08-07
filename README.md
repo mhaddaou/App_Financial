@@ -1,4 +1,4 @@
-if you want to see the project but is not yet you can use the link blow
+if you want to see the project but is not yet you can use this link => 
 https://financial-gray.vercel.app/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
