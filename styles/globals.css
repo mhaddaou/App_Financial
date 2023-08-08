@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.mybtn {
+  @apply bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200;
+}
+.card_btn{
+  @apply w-full px-9 py-3 bg-color-primary-dark rounded-md capitalize font-bold hover:bg-color-secondary ease-in duration-200;
+}
+.links{
+  @apply hover:text-color-secondary ease-in duration-200;
+}
+.title{
+  @apply text-3xl md:text-4xl font-bold leading-snug;
+}
+
+.client {
+  @apply w-20 h-20 rounded-full p-1 m-3 cursor-pointer;
+}
+.card{
+  perspective : 1000px;
+}
+.front,
+.back{
+  backface-visibility: hidden;
+  transition: all 0.4s ease;
+
+}
+.front{
+  overflow: hidden;
+}
