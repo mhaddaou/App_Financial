@@ -54,3 +54,11 @@
 .front{
   overflow: hidden;
 }
+
+.link-dark {
+  background-color: orange; /* Dark mode */
+}
+
+.link-light {
+  background-color: white; /* Light mode */
+}

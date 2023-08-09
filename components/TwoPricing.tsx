@@ -15,7 +15,7 @@ const TwoPricing = () =>{
                     </div>
                     <div className="flex gap-4 items-center justify-center">
                         <p className="capitalize text-lg font-semibold">bill monthly</p>
-                        <input type="checkbox" onClick={() =>setcheck(!check)} defaultChecked={check} className={`toggle toggle-lg ${check === true ? 'bg-color-secondary' : 'bg-white'}`}/>
+                        <input type="checkbox" onClick={() =>setcheck(!check)} defaultChecked={check} className={`toggle toggle-lg ${check === true ? 'bg-color-secondary' : 'bg-black'} text-white`}/>
                         <p className="capitalize text-lg font-semibold">bill anuallly</p>
                     </div>
 

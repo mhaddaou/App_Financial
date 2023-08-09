@@ -5,15 +5,23 @@ import user3 from '../img/user3.jpg'
 import user4 from '../img/user4.jpg'
 import user5 from '../img/user5.jpg'
 import { useState } from "react";
-const par = `"This should be used to tell a story and include any testimonials you might have about your product or service for your clients"!`;
 
 interface arrTypes{
     para : string;
     name : string;
     job : string;
 }
-const arr : arrTypes[] = [{para : par, name : "Vera Duncan", job : "Flutter developer"}, {para: par, name :"Pirtle Karol",job:"Android developer" }, 
-{para:par, name:"Markin Nesus", job:"IOS developer"}, {para:par, name:"Leila Domniuc", job: "Next Developer"}, {para:par, name:"Mark Joe",job:"React developer"}];
+const arr : arrTypes[] = [
+    {para : `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsa quidem, nam pariatur, veniam illum commodi laboriosam, adipisci quo nemo distinctio voluptatibus dolorem!"`,
+         name : "Vera Duncan", job : "Flutter developer"}, 
+    {para:  `"adipisicing elit. Molestiae quos quod saepe delectus alias non assumenda libero ipsum dolorem in. Quis quia corrupti voluptatum nam, temporibus aut! Est, perferendis architecto!"`,
+         name :"Pirtle Karol",job:"Android developer" }, 
+    {para: `"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium nisi vero rerum possimus, ducimus rem ad adipisci pariatur sapiente ut illo laborum corrupti enim, modi consectetur doloribus quo fuga quasi!"`, 
+        name:"Markin Nesus", job:"IOS developer"}, 
+    {para: `"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, aperiam quidem. Fugiat in assumenda ipsa pariatur voluptas voluptatum eum nisi adipisci. Voluptas sit repudiandae deserunt hic alias et sint quo!"`, 
+        name:"Leila Domniuc", job: "Next Developer"}, 
+    {para: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nam velit unde quod mollitia, repellendus similique reprehenderit debitis quia reiciendis et tempora facilis dolor quasi architecto minima. Exercitationem, fugiat vitae."`, 
+        name:"Mark Joe",job:"React developer"}];
 
 const ShowReview = ({num} : {num : number}) =>{
     num--;

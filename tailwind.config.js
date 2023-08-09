@@ -21,6 +21,11 @@ module.exports = {
         "color-gray": "#333",
         "color-white": "#fff",
         "color-blob": "#A427DF",
+        "color-primary-dark": "#010417", // Dark mode primary color
+        "color-secondary-dark": "#ff7d3b", // Dark mode secondary color
+        "color-gray-dark": "#fff",
+        'link-bg': 'white', // Default background color for light mode
+        'link-bg-dark': 'orange',
       },
     },
     container:{
